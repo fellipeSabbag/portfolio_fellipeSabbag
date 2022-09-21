@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="calculadora">
+        <div class="display">
+           <p class="current-operand" data-current-operand> 0</p> 
+           <p class="previous-operand" data-previous-operand></p>
+        </div>
+
+        <div class="keyboard">
+            <div class="operadores">
+                <button type="button" class="button" data-action="add">+</button>
+                <button type="button" class="button" data-action="sub">-</button>
+                <button type="button" class="button" data-action="mult">x</button>
+                <button type="button" class="button" data-action="div">÷</button>
+                <button type="button" class="button" data-clear>AC</button>
+                
+            </div>
+            <button type="button" class="button result" data-result>=</button>
+         </div>
+    </section>
+
+
+</body>
+<script src="main.js"></script> 
+</html>
