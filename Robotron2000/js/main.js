@@ -63,6 +63,6 @@ var trocaRobo = ["RoboAmarelo.png","RoboAzul.png","RoboBranco.png","RoboPreto.pn
 for (c=-1;c>imgRobo.length;c++){
 imgRobo.addEventListener ('click', (c) => {
     console.log(c)
-    }
+}) 
     }
 
